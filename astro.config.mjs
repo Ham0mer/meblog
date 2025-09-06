@@ -26,7 +26,7 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://doc.jk.sb/",
+	site: "https://rainbow-jalebi-28dcb1.netlify.app",
 	base: "/",
 	trailingSlash: "always",
 	integrations: [
