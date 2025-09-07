@@ -1,0 +1,38 @@
+---
+title: debian开启root用户ssh登录
+published: 2025-09-07
+description: '没啥写的'
+image: ''
+tags: ['脚本']
+category: '工具'
+draft: false 
+lang: ''
+---
+
+```sh frame="none"
+#!/bin/bash
+set -e
+
+# 设置 root 密码
+echo "请输入新的 root 密码："
+passwd root
+
+# 修改 SSH 配置文件
+SSHD_CONFIG="/etc/ssh/sshd_config"
+
+# 备份配置文件
+cp $SSHD_CONFIG ${SSHD_CONFIG}.bak.$(date +%F-%T)
+
+# 开启 root 登录
+sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/' $SSHD_CONFIG
+sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/' $SSHD_CONFIG
+
+# 重启 SSH 服务
+if command -v systemctl &>/dev/null; then
+    systemctl restart ssh || systemctl restart sshd
+else
+    service ssh restart || service sshd restart
+fi
+
+echo "✅ Root SSH 登录已开启！"
+```
