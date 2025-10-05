@@ -1,5 +1,6 @@
 # About
 下次再写
+::steam{id="76561198887857717"}
 
 ::github{repo="saicaca/fuwari"}
 

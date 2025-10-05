@@ -10,6 +10,9 @@ lang: 'zh_CN'
 ---
 
 最近想更新下关于页面的Steam展示组件，记录一下Steam Web API的使用方法
+### 勋章
+`https://store.steampowered.com/replay/76561198887857717/2024`
+
 ## 便捷接口
 
 ### 个人信息
