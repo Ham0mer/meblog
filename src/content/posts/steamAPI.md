@@ -1,8 +1,8 @@
 ---
 title: Steam Web API简易使用介绍
-published: 2025-10-05
-description: ''
-image: ''
+published: 2029-10-05
+description: '详细介绍Steam Web API的使用方法，包括统一接口格式、参数说明（如interface、method、version、key、steamids等）以及多种常用API功能的使用示例，涵盖用户信息、游戏库存、最近游玩记录、使用时间统计、社区等级、好友列表、徽章系统和成就信息等实用功能。'
+image: '/IMG/steamapi.jpg'
 tags: ['Steam','API']
 category: '工具'
 draft: false 

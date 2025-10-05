@@ -2,7 +2,7 @@
 title: Docker安装ASF和TGbot
 published: 2025-10-05
 description: 'ASF 是一个帮助您轻松获得卡牌掉落的程序'
-image: ''
+image: '/IMG/ASF.jpg'
 tags: ['ASF','TGbot']
 category: '工具'
 draft: false 

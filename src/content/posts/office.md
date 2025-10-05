@@ -1,8 +1,8 @@
 ---
 title: Office 365管理员
 published: 2025-09-06
-description: '常用配置链接'
-image: ''
+description: 'Office 365管理员常用配置链接汇总，包括管理中心、许可验证、安全配置（备用联系方式、密码修改、双重验证）、组织个性化设置（公司信息、域名配置）、使用配置（OneDrive容量、密码过期）、用户管理及Azure Active Directory高级管理功能等。'
+image: '/IMG/Office.jpg'
 tags: ['Office']
 category: 'Office'
 draft: false 
