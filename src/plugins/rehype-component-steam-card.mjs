@@ -116,7 +116,7 @@ export function SteamCardComponent(properties, children) {
           // Update game info if playing
           const gameInfoEl = document.getElementById('${cardUuid}-gameinfo');
           if (userData.gameextrainfo) {
-            gameInfoEl.innerText = 'Playing: ' + userData.gameextrainfo;
+            gameInfoEl.innerText = userData.gameextrainfo;
             gameInfoEl.style.display = 'block';
           }
           
