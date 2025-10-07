@@ -109,7 +109,7 @@ export function SteamCardComponent(properties, children) {
           // Update avatar
           const avatarEl = document.getElementById('${cardUuid}-avatar');
           if (userData.avatarfull) {
-            avatarEl.style.backgroundImage = 'url(' + userData.avatarfull + ')';
+            avatarEl.style.backgroundImage = 'url(' + userData.info.avatarUrl + ')';
             avatarEl.style.backgroundColor = 'transparent';
           }
           
