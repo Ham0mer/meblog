@@ -7,6 +7,7 @@ import { render } from "astro:content";
 import Markdown from "@components/misc/Markdown.astro";
 import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
+import GiscusComment from "../components/misc/GiscusComment.astro";
 
 const friendsPost = await getEntry("spec", "friends");
 
@@ -70,6 +71,11 @@ const items = [
             <Markdown class="mt-2">
                 <Content />
             </Markdown>
+        </div>
+    </div>
+    <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32 pt-6">
+        <div class="card-base z-10 px-9 py-6 relative w-full ">
+        <GiscusComment repo="csl0p/jksb" repoId="R_kgDOP-gRsw" category="Announcements" categoryId="DIC_kwDOP-gRs84CwZGU" />
         </div>
     </div>
 
