@@ -98,5 +98,5 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 
 export const gitHubEditConfig: GitHubEditConfig = {
 	enable: true,
-	baseUrl: "https://github.com/Ham0mer/meblog/tree/master/src/content/posts",
+	baseUrl: "https://github.com/Ham0mer/jk-fuwari/tree/master/src/content/posts",
 };
