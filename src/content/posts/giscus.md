@@ -3,8 +3,8 @@ title: 给fuwari主题添加giscus评论区
 published: 2025-10-08
 description: ''
 image: ''
-tags: []
-category: ''
+tags: ['giscus','fuwari']
+category: 'fuwari'
 draft: false 
 lang: ''
 ---
