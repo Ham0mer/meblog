@@ -1,7 +1,7 @@
 ---
 title: qBittorrent
 published: 2025-09-06
-description: '详细介绍PT下载工具及优化配置，包含Seedbox一键安装脚本的完整使用方法、支持平台（Debian/Ubuntu）、功能特性（qBittorrent、autobrr、vertex、autoremove-torrents等）以及针对不同硬件环境（CPU、内存、存储设备）的深度性能优化参数设置指南。'
+description: 'PT下载工具及Seedbox一键安装脚本配置指南'
 image: ''
 tags: ['PT','工具']
 category: '工具'
